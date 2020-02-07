@@ -1,5 +1,8 @@
 /* CSS files add styling rules to your content */
-
+html {
+  height: 100%;
+  width: 100%;
+}
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
@@ -8,14 +11,26 @@ body {
   height: 100%;
   width: 100%;
 }
-
+.subody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 h1 {
   font-style: italic;
   color: #373fff;
-   display: flex;
-  justify-content: center;
+  text-align: center;
 }
 .start-link {
   text-decoration: none;
-  
+  font-size: 30px;
+  padding: 20px 20px;
+  display: inline-block;
+}
+.start-conteiner {
+  align-items: center;
+}
+#start {
+  border: none;
 }
