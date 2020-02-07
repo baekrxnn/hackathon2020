@@ -1,0 +1,41 @@
+.dropDownSpace {
+  postion: relative;
+  display: inline-block;
+}
+body {
+  background-image: linear-gradient(#FFE2CD, #FEC2E7, #C9E7FF, #86FeF4);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.dropDownContent {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  overflow: auto;
+  z-index: 1;
+}
+
+#slider {
+  width: 500px;
+  margin: 30px;
+}
+#answer1 {
+  text-align: center; 
+}
+
+.answerSpace {
+  display: flex;
+    justify-content: center;
+}
+.answerButtons {
+  display: flex;
+  flex-direction: column;
+}
+.show{
+  display: block;
+}
+h1 {
+  text-align: center;
+}

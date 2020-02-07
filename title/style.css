@@ -1,0 +1,21 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: linear-gradient(#FFE2CD, #FEC2E7, #C9E7FF, #86FeF4);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+   display: flex;
+  justify-content: center;
+}
+.start-link {
+  text-decoration: none;
+  
+}
