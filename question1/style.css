@@ -1,6 +1,6 @@
-.dropDownSpace {
-  postion: relative;
-  display: inline-block;
+html {
+  height: 100%;
+  width: 100%;
 }
 body {
   background-image: linear-gradient(#FFE2CD, #FEC2E7, #C9E7FF, #86FeF4);
@@ -8,34 +8,39 @@ body {
   height: 100%;
   width: 100%;
 }
-
-.dropDownContent {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  overflow: auto;
-  z-index: 1;
-}
-
 #slider {
   width: 500px;
-  margin: 30px;
-}
-#answer1 {
-  text-align: center; 
-}
-
-.answerSpace {
-  display: flex;
-    justify-content: center;
-}
-.answerButtons {
-  display: flex;
-  flex-direction: column;
-}
-.show{
-  display: block;
+  margin: 0 auto;
+   display: flex;
+  justify-content: center;
 }
 h1 {
   text-align: center;
+}
+.slider-container {
+  align-items: center;
+  margin: 10px auto;
+}
+.dropBtn {
+  display: none;
+}
+.moveOn {
+  display: none;
+}
+.dropInfo {
+  display: none;
+}
+.answerSpace {
+  margin: 20px;
+  font-size: 30px;
+}
+.image1 {
+  
+}
+
+.dropInfo {
+  display: none;
+}
+.moveText {
+  text-decoration: none;
 }
